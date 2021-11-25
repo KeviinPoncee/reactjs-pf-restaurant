@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all .2s linear;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-items {
+    width: 262px;
+    height: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-card {
+    width: 280px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.description-card {
+    height: 72px;
 }
 
-.App-link {
-  color: #61dafb;
+/* ============================ */
+
+#img-home {
+    margin: auto;
+    width: 45%;
+    height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutUs-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.aboutUs-content .aboutUs-Img {
+    width: 40%;
+}
+
+.aboutUs-content .aboutUs-Img img {
+    width: 100%;
+}
+
+.aboutUs-content .aboutUs-Text {
+    width: 80%;
+}
+
+.aboutUs-content .aboutUs-Text .aboutUs-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-empty {
+    width: 30%;
+}
+
+@media only screen and (max-width: 965px) {
+    #img-home {
+        margin: auto;
+        width: 45%;
+        height: 400px;
+    }
+
+    .aboutUs-content {
+        flex-direction: column;
+    }
+
+    .aboutUs-content .aboutUs-Img {
+        width: 55%;
+    }
+
+    .aboutUs-content .aboutUs-Text .aboutUs-services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #img-home {
+        margin: auto;
+        width: 60%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #img-home {
+        margin: auto;
+        width: 80%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #img-home {
+        margin: auto;
+        width: 80%;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #img-home {
+        margin: auto;
+        width: 80%;
+        height: 320px;
+    }
 }
