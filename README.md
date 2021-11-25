@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+![Je Co](https://user-images.githubusercontent.com/83381101/141214316-46383b24-673b-453e-9285-522de0787d88.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RESTORANT Je&Co.
+## Proyecto e-commerce de un restorant o tienda de comidas
 
-## Available Scripts
+## Contenido
+- Este proyecto (EN DESARROLLO) tiene una única rama, main.
 
-In the project directory, you can run:
+## Objetivos
 
-### `npm start`
+> El objetivo del proyecto es crear una Tienda  E-commerce  (un sistema de venta de productos
+>y gestiona los pagos a través de medios electrónicos.), en una single-page application (SPA), o
+>aplicación de página única e-commerce, donde se pueda navegar sobre los distintos productos
+>en ventas y también sobre sus categorías, luego agregarlos al carrito, modificar los elementos
+>del carrito, para luego finalizar la compra de los elementos cargados al mismo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Etapa actual - EN DESARROLLO
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tenología
 
-### `npm test`
+Este proyecto se está desarrolando en React-Js:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React-Js](https://create-react-app.dev/) - La App fue creada con Create React App
 
-### `npm run build`
+## Instalación
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Resto Je&Co requiere [React-Js](https://create-react-app.dev/) para ejecutarse.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para clonar este repositorio debe seguir las siguientes instrucciones:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1 - Abre el Visual Studio Code
 
-### `npm run eject`
+2 - Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el directorio.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3 - Escribe `git clone` y luego pega la siguiente URL 
+`https://github.com/KeviinPoncee/pf-resto-reactJs.git`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4 - Presiona `Enter` para crear tu clon local.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Por mayor información: `https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Complementos
 
-## Learn More
+Una vez clonado el repositorio, para que el proyecto se ejecute correctamente, se deben instalar las siguientes librerias:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`• react-router-dom`  : Es una librería que nos permite el enrutamiento y navegabilidad entre los diferentes componentes de nuestra SPA. Para instalarlo se debe ejecutar en la terminal lo siguiente:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm install react-router-dom
+```
 
-### Code Splitting
+`•	boxicons `  : Boxicons es una colección gratuita de iconos de código abierto cuidadosamente elaborados. Cada icono está diseñado en una cuadrícula de 24 píxeles con las pautas de material.
+```sh
+npm install boxicons
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`•	SweetAlert2 `  : SweetAlert es un plugin de jQuery y con el cual podremos dar un aspecto profesional a los mensajes que lancemos a los usuarios acorde a las tendencias actuales. Además, tenemos la posibilidad de configurar el plugin de muchas formas diferentes.
 
-### Analyzing the Bundle Size
+```sh
+npm install sweetalert2
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`•	react-hook-form `  : Esta nos permite hacer formularios no-controlados, manteniendo el estándar HTML, reduciendo el número de re-renders y generando una mejor experiencia de usuario.
 
-### Making a Progressive Web App
+```sh
+npm install react-hook-form
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Ejecución
 
-### Advanced Configuration
+Para ejecutar este proyecto simplemente escriba y ejecute en su consola de Visual Studio Code:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+npm start
+```
+>Esto hará que la aplicación se ejecute en modo de desarrollo.
+>Abra http: // localhost: 3000 para verlo en el navegador.
+>La página se recargará si realiza modificaciones. También verá errores en la consola.
 
-### Deployment
+## Estado del Proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Actualmente cuenta con los siguientes Componentes: 
+- `NavBar` : barra de navegación de la SPA.
+- `HomeContainer` : componente de bienvenida.
+- `ItemListContainer` : En donde mostramos el catálogo, en conjunción con los compomentes `ItemList` e `Item`.
+- `ItemDetailContainer` : Para mostrar la información del item seleccionado `ItemDetail`, en  dónde ingresaremos la cantidad y nos permite la opción de agregar al carrito.
+- `CardWidget` : componente para mostrar en la barra de navación la cantidad de productos seleccionados (en desarrollo).
+- `getFecth` : componente que nos devuelve un arreglo de objetos, que contiene el catálogo de productos.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Linkedin](https://www.linkedin.com/in/keviin-poncee/)
