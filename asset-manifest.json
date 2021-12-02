@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactjs-pf-restaurant/static/css/main.1da3133e.chunk.css",
+    "main.js": "/reactjs-pf-restaurant/static/js/main.2f521b04.chunk.js",
+    "main.js.map": "/reactjs-pf-restaurant/static/js/main.2f521b04.chunk.js.map",
+    "runtime-main.js": "/reactjs-pf-restaurant/static/js/runtime-main.eadfb314.js",
+    "runtime-main.js.map": "/reactjs-pf-restaurant/static/js/runtime-main.eadfb314.js.map",
+    "static/js/2.247b6177.chunk.js": "/reactjs-pf-restaurant/static/js/2.247b6177.chunk.js",
+    "static/js/2.247b6177.chunk.js.map": "/reactjs-pf-restaurant/static/js/2.247b6177.chunk.js.map",
+    "static/js/3.e7dab8fd.chunk.js": "/reactjs-pf-restaurant/static/js/3.e7dab8fd.chunk.js",
+    "static/js/3.e7dab8fd.chunk.js.map": "/reactjs-pf-restaurant/static/js/3.e7dab8fd.chunk.js.map",
+    "index.html": "/reactjs-pf-restaurant/index.html",
+    "static/css/main.1da3133e.chunk.css.map": "/reactjs-pf-restaurant/static/css/main.1da3133e.chunk.css.map",
+    "static/js/2.247b6177.chunk.js.LICENSE.txt": "/reactjs-pf-restaurant/static/js/2.247b6177.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eadfb314.js",
+    "static/js/2.247b6177.chunk.js",
+    "static/css/main.1da3133e.chunk.css",
+    "static/js/main.2f521b04.chunk.js"
+  ]
+}
