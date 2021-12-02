@@ -20,7 +20,7 @@ const App = () => {
             <NavBar/>
           </header>
           <Routes>
-            <Route exact path='/' element={<HomeContainer/>}/>
+            <Route exact path='/reactjs-pf-restaurant' element={<HomeContainer/>}/>
             <Route exact path='/productos' element={<ItemListContainer/>}/>
             <Route exact path='/categoria/:idCategoria' element={<ItemListContainer/>}/>
             <Route exact path='/detalle/:idProducto' element={<ItemDetailContainer/>}/>
