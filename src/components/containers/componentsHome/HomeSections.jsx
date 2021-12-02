@@ -6,7 +6,7 @@ export const Carousel = () => {
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="../assets/images/home-img-1.png" class="d-block" alt="..." id='img-home' />
+                    <img src="https://github.com/KeviinPoncee/reactjs-pf-restaurant/blob/gh-pages/assets/images/home-img-1.png?raw=true" class="d-block" alt="..." id='img-home' />
                     <div class="carousel-caption d-block bg-light p-2 text-dark bg-opacity-75">
                         <h2 className="fw-bold fs-1 text-success">Plato Especial</h2>
                         <p className='fw-bold fs-3'>Fideos Picantes</p>
@@ -14,7 +14,7 @@ export const Carousel = () => {
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="../assets/images/home-img-2.png" class="d-block" alt="..." id='img-home' />
+                    <img src="https://github.com/KeviinPoncee/reactjs-pf-restaurant/blob/gh-pages/assets/images/home-img-2.png?raw=true" class="d-block" alt="..." id='img-home' />
                     <div class="carousel-caption d-block bg-light p-2 text-dark bg-opacity-75">
                         <h2 className="fw-bold fs-1 text-success">Plato Especial</h2>
                         <p className='fw-bold fs-3'>Pollo Frito</p>
@@ -22,7 +22,7 @@ export const Carousel = () => {
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="../assets/images/home-img-3.png" class="d-block" alt="..." id='img-home' />
+                    <img src="https://github.com/KeviinPoncee/reactjs-pf-restaurant/blob/gh-pages/assets/images/home-img-3.png?raw=true" class="d-block" alt="..." id='img-home' />
                     <div class="carousel-caption d-block bg-light p-2 text-dark bg-opacity-75">
                         <h2 className="fw-bold fs-1 text-success">Plato Especial</h2>
                         <p className='fw-bold fs-3'>Pizza Caliente</p>
@@ -41,7 +41,7 @@ export const AboutUs = () => {
             <h3 className='text-center fw-bold'>¿Por qué elegirnos?</h3>
             <div className="aboutUs-content">
                 <div className='aboutUs-Img'>
-                    <img src="../assets/images/about-img.png" alt="" />
+                    <img src="https://github.com/KeviinPoncee/reactjs-pf-restaurant/blob/gh-pages/assets/images/about-img.png?raw=true" alt="" />
                 </div>
                 <div className='aboutUs-Text'>
                     <h2>La mejor comida del país</h2>
