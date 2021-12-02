@@ -8,7 +8,7 @@ export const HomeFooter = () => {
                 <div>
                     <h4 className="text-center fw-bold text-primary">Enlaces rapidos</h4>
                     <div className='container d-flex flex-column'>
-                        <Link className='btn' to='/'>Home</Link>
+                        <Link className='btn' to='/reactjs-pf-restaurant'>Home</Link>
                         <Link className='btn' to='/categoria/menu'>Menú</Link>
                         <Link className='btn' to='/categoria/dishes'>Platos</Link>
                         <Link className='btn' to='/cart'>Carrito</Link>
