@@ -97,7 +97,7 @@ export const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav fw-bold text-center">
                             <li className="nav-item">
-                                <Link className="nav-link" to='/'>Home</Link>
+                                <Link className="nav-link" to='/reactjs-pf-restaurant'>Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to='/productos'>Productos</Link>

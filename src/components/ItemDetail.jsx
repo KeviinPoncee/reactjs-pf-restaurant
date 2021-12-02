@@ -48,7 +48,7 @@ export const ItemDetail = ({img, nombre, descripcion, precio, id}) => {
                     <p className="card-text text-capitalize fw-bold">{descripcion}</p>
                     <h3 className="card-text fw-bold">$ {precio}</h3>
                     <div className="container d-flex justify-content-center">
-                        <img src="../../../assets/images/medios-de-pagos.png" alt="" className="w-50"/>
+                        <img src="https://github.com/KeviinPoncee/reactjs-pf-restaurant/blob/gh-pages/assets/images/medios-de-pagos.png?raw=true" alt="" className="w-50"/>
                     </div>
                     <ItemCountDetail initial={1} onAdd={onAdd}/>
                 </div>

@@ -62,7 +62,7 @@ export const ItemListContainer = () => {
                 <h1 className="fw-bold">~ Productos ~</h1>
                 {
                     productLoading ?
-                        <img src="../assets/images/loader.gif" alt="" />
+                        <img src="https://github.com/KeviinPoncee/reactjs-pf-restaurant/blob/gh-pages/assets/images/loader.gif?raw=true" alt="" />
                     :
                         <ItemList productos={product}/>
                 }

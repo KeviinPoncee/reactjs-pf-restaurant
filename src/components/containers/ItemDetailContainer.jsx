@@ -36,7 +36,7 @@ export const ItemDetailContainer = () => {
                 {
                     detailLoading ?
                         <div className="text-center">
-                            <img src="../assets/images/loader.gif" alt="" />
+                            <img src="https://github.com/KeviinPoncee/reactjs-pf-restaurant/blob/gh-pages/assets/images/loader.gif?raw=true" alt="" />
                         </div>
                         :
                         <ItemDetail img={productoDetail.image} nombre={productoDetail.title} descripcion={productoDetail.descripcion} precio={productoDetail.precio} id={productoDetail.idNumber} />
