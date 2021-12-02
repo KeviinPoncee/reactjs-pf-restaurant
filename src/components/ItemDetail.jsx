@@ -42,7 +42,7 @@ export const ItemDetail = ({img, nombre, descripcion, precio, id}) => {
                 <Link to="/productos" className="btn btn-outline-danger position-absolute top-0 end-0 d-flex justify-content-center">
                     <box-icon className="w-75" name='exit'></box-icon>
                 </Link>
-                <img src={img} className="card-img-top w-50 mx-auto" alt="..." />
+                <img src={`${img}`} className="card-img-top w-50 mx-auto" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title fs-2 text-capitalize text-center bg-success p-2 text-dark bg-opacity-25">{nombre}</h5>
                     <p className="card-text text-capitalize fw-bold">{descripcion}</p>
